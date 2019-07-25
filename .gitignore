@@ -1,0 +1,6 @@
+# Application configuration and secrets
+config.csv
+
+# Data and model
+EUR_USD_20_years.csv
+EUR_USD_1_Day_Forecast_2.h5

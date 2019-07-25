@@ -1,0 +1,2 @@
+application_id,access_key,reply_url,token_url,base_url
+<%YOUR-CLIENT-ID%>,<%YOUR-SECRET-KEY%>,*,https://api.fusionfabric.cloud/login/v1/sandbox/oidc/token,https://api.fusionfabric.cloud
