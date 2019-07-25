@@ -1,4 +1,4 @@
-### Welcome
+# Welcome
 
 This sample project shows how to predict the next's day currency rate using machine learning modules.
 
