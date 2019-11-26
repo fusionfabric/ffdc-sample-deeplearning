@@ -25,5 +25,5 @@ python Forex-Data-Science.py
 
 > To learn how to create this sample project from scratch, follow the tutorial from [Developer Portal Documentation](https://developer.fusionfabric.cloud/documentation?workspace=FusionCreator&board=Home&uri=sample-client-deeplearning.html). 
 
-This sample client application is released under the Apache 2.0 License. See [LICENSE](LICENSE) for details.
+This sample client application is released under the MIT License. See [LICENSE](LICENSE) for details.
 
