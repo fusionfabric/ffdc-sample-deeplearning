@@ -4,7 +4,8 @@ This sample project shows how to predict the next's day currency rate using mach
 
 **To run this sample**
 
-> You need a recent installation of [Python](https://www.python.org/) and [Jupyter](https://jupyter.org/). However, due to the dependency on the **keras** library, you must install a compatible Python version, such as 2.7 or 3.6, or previous versions. See the library repository [Readme.md](https://github.com/keras-team/keras/blob/master/README.md) for details.
+> You need a recent installation of [Python](https://www.python.org/) and [Jupyter](https://jupyter.org/). However, due to the dependency on the **keras** library (recommended version for **keras** is 2.3.1), you must install a compatible Python version, such as 3.8.x or previous versions. See the library repository [Readme.md](https://github.com/keras-team/keras/blob/master/README.md) for details.
+
 > If you are new to Python, check out the [Beginner's Guide to Python](https://wiki.python.org/moin/BeginnersGuide), which contains instructions on how to install Python.
 
 1.  Register an application on [**Fusion**Fabric.cloud Developer Portal](https://developer.fusionfabric.cloud), and include the [Exchange Rates and Currency Conversion](https://developer.fusionfabric.cloud/api/fxrate-v1-f1ee44fa-bdd1-44ed-b4b5-50298b82f0d/docs) API.

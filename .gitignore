@@ -1,3 +1,6 @@
+# Jupyter checkpoints
+.ipynb_checkpoints
+
 # Application configuration and secrets
 config.csv
 

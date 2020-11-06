@@ -23,8 +23,8 @@ from sklearn.ensemble import RandomForestClassifier
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.preprocessing import MinMaxScaler
 from sklearn.metrics import mean_squared_error, r2_score, mean_absolute_error, explained_variance_score
-from keras.models import Sequential
-from keras.layers import Dense, Dropout, Activation, Input, LSTM, Dense
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import Dense, Dropout, Activation, Input, LSTM, Dense
 
 
 # Authentication Token:
@@ -128,6 +128,7 @@ for idx,date in enumerate(dates):
     dta = eval(response.text)
     usd = dta["rates"]["USD"]
     ls = [usd]
+    print(dta)
     if dta["date"] != date:
         ls.append("Weekend")
     else:
@@ -282,7 +283,7 @@ model.fit(X_train, y_train, epochs=100, batch_size=256)
 
 # Train Set Performance:
 #Get Training MSE
-mse = model.history.history['mean_squared_error']
+mse = model.history.history['mse']
 
 #Build Line chart to show performance
 line_chart = pygal.StackedLine(fill=True,width=500, height=300, explicit_size=True,
